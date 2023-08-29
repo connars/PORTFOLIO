@@ -1,0 +1,42 @@
+.header {
+    color: white !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: 22;
+    margin: 60px;
+    margin-top: 30px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-link {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+}
+
+.header__nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 18px;
+    padding: 0 !important;
+    height: 60px !important;
+}
