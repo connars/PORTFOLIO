@@ -1,8 +1,6 @@
-// i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
-import enTranslation from './../locales/en.json'; // Загрузите файлы переводов
+import enTranslation from './../locales/en.json';
 import ruTranslation from './../locales/ru.json';
 
 i18n
@@ -16,10 +14,10 @@ i18n
         translation: ruTranslation,
       },
     },
-    lng: 'en', // Установите язык по умолчанию
-    fallbackLng: 'ru', // Язык, который будет использоваться, если перевод не найден
+    lng: 'en',
+    fallbackLng: 'ru',
     interpolation: {
-      escapeValue: false, // Не обязательно
+      escapeValue: false,
     },
   });
 

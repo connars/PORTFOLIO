@@ -15,7 +15,6 @@ root.render(
         <App />
       </I18nextProvider>
     </Router>
-   
   </React.StrictMode>
 );
 
