@@ -1,0 +1,66 @@
+.form__box {
+    background: rgba(21, 21, 21, 0.70);
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 23;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+}
+
+.form__box.active {
+    visibility: visible;
+}
+
+.form__box {
+    visibility: hidden;
+}
+
+.close {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    height: 60px;
+    width: 60px;
+    z-index: 2222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close span{
+    position: absolute;
+    width: 40px;
+    background-color: white;
+    height: 3px;
+}
+
+.close span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.close span:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+
+.form__box .form{
+    scale: 0;
+    transition: 0.3s;
+}
+
+.form__box.active .form{
+    scale: 1;
+}

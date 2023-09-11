@@ -1,47 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #324746;
+  --yellow: #FDB920;
+  --gray: #ECECEC;
+  --black: #151515;
+}
+
 body {
     margin: 0;
     background-color: white;
     overflow-x: hidden;
     margin: 0;
-    font-family: 'ActayWide Reg';
+    font-family: 'Actay';
 }
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-.main-btn {
-  background-color: #e50b00;
-  padding: 15px 20px;
-  color: white;
-  border-radius: 18px;
-}
-
-.main-btn a{
-  font-weight: 600;
-  color: white !important;
-}
-
-.nohover:hover{
-  font-weight: 600;
-  color: white !important;
-}
-
-@font-face {
-  font-family: 'ActayWide'; /* Имя шрифта */
-  src: url('./assets/fonts/actaywide-bold.otf') format('opentype');
-  font-weight: normal; /* Обычный начертание */
-  font-style: normal; /* Обычный стиль */
-}
-
-@font-face {
-  font-family: 'ActayWide Reg'; /* Имя шрифта */
-  src: url('./assets/fonts/actay-regular.otf') format('opentype');
-  font-weight: normal; /* Обычный начертание */
-  font-style: normal; /* Обычный стиль */
-}
-
-/* Пример использования шрифта */
 .title {
-  font-family: 'ActayWide', sans-serif;
+  color: #FFF;
+  font-family: Actay Wide;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-black {
+  color: #324746;
+  font-family: Actay Wide;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+@font-face {
+  font-family: 'Actay Wide'; 
+  src: url('./assets/fonts/actaywide-bold.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Actay';
+  src: url('./assets/fonts/actay-regular.otf') format('opentype');
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+.subtitle {
+  color: #FDB920;
+  font-family: Actay;
+  font-style: normal;
+  line-height: normal;
 }

@@ -1,0 +1,38 @@
+.slide {
+    padding: 20px;
+    height: 120px;
+    transition: 0.1s;
+    width: 240px;
+    overflow: hidden;
+}
+.swiper__wrapper {
+    width: 600px;
+}
+.services {
+    display: flex;
+    height: 580px;
+}
+
+.swiper-button {
+    padding: 10px;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.swiper-button:hover {
+    padding: 10px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+}
+
+
+.swiper-button:hover rect{
+    fill: var(--green);
+}
+
+.swiper-slide.swiper-slide-active .slide {
+    height: 400px;
+    width: 240px;
+    background-color: var(--gray);
+}

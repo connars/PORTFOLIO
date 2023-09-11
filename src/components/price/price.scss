@@ -1,0 +1,66 @@
+.price-card {
+    background: #F9F7F9;
+}
+
+.price-card__title {
+    color: #FDB920;
+    font-family: Actay Wide;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.625px;
+}
+
+.price-card__price {
+    color: #324746;
+    font-family: Actay Wide;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price-card__text {
+    color: #878787;
+    font-family: Actay;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price-card__button rect {
+    fill: white;
+}
+.price-card__button span{
+   position: absolute;
+   width: 120px;
+   left: 40px;
+}
+.price-card__button  {
+    
+}
+.price-card__button {
+    padding: 10px;
+    background: #E1E3E6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    border-radius: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+
+    display: flex;
+}
+
+.price-card__button:hover rect {
+    fill: var(--green);
+}
+.price-card__button:hover {
+    background: var(--yellow);
+    width: 170px;
+}

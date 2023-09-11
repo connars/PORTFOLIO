@@ -1,0 +1,39 @@
+<svg width="368" height="346" viewBox="0 0 368 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="74" y="48" width="43" height="43" fill="#FDB920"/>
+<rect x="291" y="266" width="43" height="43" transform="rotate(-180 291 266)" fill="#FDB920"/>
+<rect x="117" y="48" width="44" height="44" fill="#FDB920"/>
+<rect x="117" y="92" width="44" height="44" fill="#FDB920"/>
+<rect x="117" y="180" width="44" height="44" fill="#FDB920"/>
+<rect x="117" y="135" width="44" height="44" fill="#FDB920"/>
+<rect x="161" y="266" width="44" height="44" fill="#FDB920"/>
+<rect x="161" y="48" width="44" height="44" fill="#FDB920"/>
+<rect x="161" y="92" width="44" height="44" fill="#FDB920"/>
+<rect x="161" y="180" width="44" height="44" fill="#FDB920"/>
+<rect x="161" y="135" width="44" height="44" fill="#FDB920"/>
+<rect x="248" y="310" width="44" height="44" transform="rotate(-180 248 310)" fill="#FDB920"/>
+<rect x="117" y="266" width="44" height="44" fill="#FDB920"/>
+<rect x="248" y="92" width="44" height="44" transform="rotate(-180 248 92)" fill="#FDB920"/>
+<rect x="248" y="136" width="44" height="44" transform="rotate(-180 248 136)" fill="#FDB920"/>
+<rect x="248" y="224" width="44" height="44" transform="rotate(-180 248 224)" fill="#FDB920"/>
+<rect x="248" y="179" width="44" height="44" transform="rotate(-180 248 179)" fill="#FDB920"/>
+<rect x="74" y="179" width="43" height="43" fill="#FDB920"/>
+<rect x="291" y="135" width="43" height="43" transform="rotate(-180 291 135)" fill="#FDB920"/>
+<rect x="74" y="91" width="43" height="44" fill="#FDB920"/>
+<rect x="291" y="223" width="43" height="44" transform="rotate(-180 291 223)" fill="#FDB920"/>
+<rect x="74" y="222" width="43" height="44" fill="#FDB920"/>
+<rect x="291" y="92" width="43" height="44" transform="rotate(-180 291 92)" fill="#FDB920"/>
+<rect x="30" y="135" width="44" height="44" fill="#FDB920"/>
+<rect x="335" y="179" width="44" height="44" transform="rotate(-180 335 179)" fill="#FDB920"/>
+<line x1="5" y1="47.5" x2="368" y2="47.5" stroke="black"/>
+<line x1="291.5" y1="1.87213e-08" x2="291.5" y2="310" stroke="black"/>
+<line x1="335.5" y1="108" x2="335.5" y2="205" stroke="black"/>
+<line x1="30.5" y1="108" x2="30.5" y2="205" stroke="black"/>
+<line x1="248.5" y1="1.87213e-08" x2="248.5" y2="345" stroke="black"/>
+<line x1="117.5" y1="1.87213e-08" x2="117.5" y2="346" stroke="black"/>
+<line x1="74.5" y1="1.87213e-08" x2="74.5" y2="309" stroke="black"/>
+<line x1="363" y1="135.5" x2="-4.22199e-08" y2="135.5" stroke="black"/>
+<line x1="363" y1="179.5" x2="-4.22199e-08" y2="179.5" stroke="black"/>
+<line y1="265.5" x2="363" y2="265.5" stroke="black"/>
+<line x1="92.9956" y1="310.244" x2="270.006" y2="310.756" stroke="black"/>
+<line y1="223.5" x2="363" y2="223.5" stroke="black"/>
+</svg>
