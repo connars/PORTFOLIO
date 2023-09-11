@@ -22,28 +22,28 @@ function Price() {
             text: 'Development of websites and web applications for lovers of he future'
         },
         {
-            title: 'Landing',
-            price: 'from ~700$',
+            title: 'Business Card',
+            price: 'from ~1200$',
             text: 'Development of websites and web applications for lovers of he future'
         },
         {
             title: 'Landing',
-            price: 'from ~700$',
+            price: 'from ~1400$',
             text: 'Development of websites and web applications for lovers of he future'
         },
         {
             title: 'Landing',
-            price: 'from ~700$',
+            price: 'from ~2000$',
             text: 'Development of websites and web applications for lovers of he future'
         },
         {
             title: 'Landing',
-            price: 'from ~700$',
+            price: 'from ~2500$',
             text: 'Development of websites and web applications for lovers of he future'
         },
         {
             title: 'Landing',
-            price: 'from ~700$',
+            price: 'from ~25$/hour',
             text: 'Development of websites and web applications for lovers of he future'
         },
     ]

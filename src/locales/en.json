@@ -1,4 +1,9 @@
 {
+    "header_nav1": "About",
+    "header_nav2": "Services",
+    "header_nav3": "Works",
+    "header_nav4": "Contacts",
+    "header_nav5": "Blog",
     "hello": "Development of websites and web applications",
     "deskr": "Count <span class='acsent'>pacman</span> on the site and get -10% of the check"
 }

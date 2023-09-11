@@ -5,8 +5,10 @@ import logo from './../../assets/images/main-logo.svg'
 import { useTranslation } from 'react-i18next';
 
 function Header() {
-
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
+  const headerClass = `header fixed ${isScrolled ? 'is-scrolled' : ''}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,11 +25,6 @@ function Header() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  const headerClass = `header fixed ${isScrolled ? 'is-scrolled' : ''}`;
-
-
-  const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -50,16 +47,22 @@ function Header() {
                </Link>
             </div>
             <div className=''>
-                <ul className='flex gap-5'>
+                <ul className='flex gap-8'>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">{t('header_nav1')}</Link>
                   </li>
                   <li>
-                    <Link to="/#services">Services</Link>
+                    <Link to="/services">{t('header_nav2')}</Link>
                   </li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
+                  <li>
+                    <Link to="/works">{t('header_nav3')}</Link>
+                  </li>
+                  <li>
+                    <Link to="/contacts">{t('header_nav4')}</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog">{t('header_nav5')}</Link>
+                  </li>
                 </ul>
             </div>
             <div className='flex gap-4'>

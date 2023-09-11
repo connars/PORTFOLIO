@@ -7,12 +7,33 @@
 .header.is-scrolled {
     background-color: white;
 }
+
+.header a {
+    color: white;
+}
+
+.header.is-scrolled a {
+    color: black;
+}
 .header img {
     height: 42px;
     transition: 0.3s;
  }
 .header.is-scrolled img {
    height: 30px;
+}
+
+.header__container {
+    transition: 0.1s;
+}
+
+.header.is-scrolled .header__container{
+    height: 80px;
+    padding: 0;
+ }
+
+.header__center {
+    width: 200px;
 }
 
 .header__button {
@@ -25,6 +46,5 @@
     line-height: normal;
     border-radius: 100px;
     background: #FDB920;
-
     padding: 15px 30px;
 }
