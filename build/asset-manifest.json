@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71745d3b.css",
+    "main.js": "/static/js/main.dd376e44.js",
+    "static/media/about-bg1.png": "/static/media/about-bg1.f61a0ce57a37ccea4ad8.png",
+    "static/media/bg.png": "/static/media/bg.e36f8cea2c6873572c5a.png",
+    "static/media/actaywide-bold.otf": "/static/media/actaywide-bold.caa5b9cf6208eb686929.otf",
+    "static/media/actay-regular.otf": "/static/media/actay-regular.5d1905c4a1e4369e5c0a.otf",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.dd3e023d413a5e9ce888.svg",
+    "static/media/404.png": "/static/media/404.ea886d90d62be1cb5d21.png",
+    "static/media/1.png": "/static/media/1.11a56e3aaf0cf1127858.png",
+    "static/media/kit.svg": "/static/media/kit.346160752ccd9b58985657acb7468be7.svg",
+    "static/media/main-logo.svg": "/static/media/main-logo.e5099b84a37483d2de8884301a6a9d0f.svg",
+    "static/media/logo-lined.svg": "/static/media/logo-lined.9e3e22e683ea4a8d2af16b12d07dd932.svg",
+    "static/media/about-icon.svg": "/static/media/about-icon.f37fb9aa0509457a65a6c27e983ceb51.svg",
+    "index.html": "/index.html",
+    "main.71745d3b.css.map": "/static/css/main.71745d3b.css.map",
+    "main.dd376e44.js.map": "/static/js/main.dd376e44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71745d3b.css",
+    "static/js/main.dd376e44.js"
+  ]
+}
