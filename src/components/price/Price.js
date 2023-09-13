@@ -58,6 +58,8 @@ function Price() {
         visible: { opacity: 1, y: 0 },
     };
     
+    let currentDamping = 0;
+    const dampingStep = 20;
 
     return (
         <section id="price" className="price">
@@ -76,7 +78,7 @@ function Price() {
                             transition={{
                                 type: "spring",
                                 stiffness: 260,
-                                damping: 20
+                                damping: `${currentDamping += dampingStep}`
                             }}
                             className="price-card p-8 flex flex-col gap-3 items-start"
                         >
@@ -98,6 +100,8 @@ function Price() {
                                 </span>
                             </div>
                         </motion.div>
+                               
+          
                     ))}
                 </div>
             </div>

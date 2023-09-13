@@ -7,6 +7,8 @@ import Header from "./container/header/Header"
 import About from "./pages/about/About";
 import Form from "./components/form/Form";
 import NotFound from "./pages/404/NotFound";
+import AdminLogin from "./pages/admin-login/AdminLogin";
+import Blog from "./pages/blog/Blog";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={< AdminLogin />} />
+        <Route path="/blog" element={< Blog />} />
         <Route
           path="/*"
           element={

@@ -15,21 +15,36 @@
 .header.is-scrolled a {
     color: black;
 }
-.header img {
+.header svg {
     height: 42px;
     transition: 0.3s;
  }
-.header.is-scrolled img {
-   height: 30px;
+
+.header-lang button {
+    color: white;
+}
+
+.header-lang button:last-child {
+    color: black;
+}
+
+
+.header.is-scrolled .header-lang button{
+    color: black;
+}
+
+.header.is-scrolled svg path{
+  fill: #324746;
 }
 
 .header__container {
-    transition: 0.1s;
+    transition: 0.3s;
 }
+.header__container {
 
+}
 .header.is-scrolled .header__container{
-    height: 80px;
-    padding: 0;
+    padding: 10px 20px;
  }
 
 .header__center {
@@ -47,4 +62,8 @@
     border-radius: 100px;
     background: #FDB920;
     padding: 15px 30px;
+}
+
+.is-scrolled-blog {
+    background-color: red;
 }
